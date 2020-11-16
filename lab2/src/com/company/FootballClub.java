@@ -13,12 +13,6 @@ public class FootballClub {
         city = s_city;
     }
 
-    FootballClub(FootballClub footballClub) {
-        this.name = footballClub.name;
-        this.year = footballClub.year;
-        this.city = footballClub.city;
-    }
-
     public String getName() {
         return name;
     }
